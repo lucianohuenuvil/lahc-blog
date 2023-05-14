@@ -415,6 +415,7 @@ main{
     list-style: none;
     display: flex;
     text-align: center;
+    flex-wrap: wrap;
   }
   
   .breadcrumb-trail li {
@@ -448,7 +449,12 @@ main{
 
 
 
+  @media only screen and (max-width: 1200px){
 
+    .new{
+        width: 300px;
+    }
+  }
 
 
 @media only screen and (max-width: 1000px){
@@ -482,6 +488,12 @@ main{
         display: flex;
     }
 
+}
+
+@media only screen and (max-width: 750px){
+    .new{
+        width: 500px;
+    }
 }
 
 

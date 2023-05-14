@@ -111,8 +111,7 @@ const pathCategories = [
         pathLink: `<li> <a href="/"> Inicio</a> <i class="fa-sharp fa-solid fa-angle-right"></i>
         <li> <a href="${ paths.category }"> Categorías</a> <i class="fa-sharp fa-solid fa-angle-right"></i>
         <li> <a href="${ paths.technology }"> Tecnología</a> <i class="fa-sharp fa-solid fa-angle-right"></i>
-        <li> <a href="${ paths.smarthome }"> SmartHome</a> <i class="fa-sharp fa-solid fa-angle-right"></i>
-        <li>Artículos</li>`
+        <li> <a href="${ paths.smarthome }"> SmartHome</a>`
     },
 
     {
