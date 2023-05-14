@@ -6,16 +6,16 @@ let htmlNavbar = `
     <li class=" nav-item dropdown">
         <a class="link links-nav dropdown-toggle" href="#" role="button" data-toggle="dropdown">Tecnología</a>
         <div class="links-nav dropdown-menu">
-            <a class="dropdown-item" href="/categorias/tecnologia/index.html">Ver todas las categorías</a>
-            <a class="dropdown-item" href="/categorias/tecnologia/smarthome/smarthome.html">SmartHome</a>
+            <a class="dropdown-item" href="/categorias/tecnologia/index.html">Ver todas las Categorías</a>
+            <a class="dropdown-item" href="/categorias/tecnologia/smarthome/index.html">SmartHome</a>
         </div>
     </li>    
 
 
     <li class=" nav-item dropdown">
-        <a class="link links-nav dropdown-toggle" href="#" role="button" data-toggle="dropdown">Deportes</a>
+        <a class="link links-nav dropdown-toggle" href="categorias/deportes/index.html" role="button" data-toggle="dropdown">Deportes</a>
         <div class="links-nav dropdown-menu">
-            <a class="dropdown-item" href="/">Ver todas las categorías</a>
+            <a class="dropdown-item" href="/">Ver todas las Categorías</a>
         </div>
     </li>      
 
@@ -23,8 +23,8 @@ let htmlNavbar = `
     <li class=" nav-item dropdown">
         <a class="link links-nav dropdown-toggle" href="#" role="button" data-toggle="dropdown"> Salud</a>
         <div class="links-nav dropdown-menu">
-            <a class="dropdown-item" href="/categorias/salud/vacunas/sobre-vacunas.html">Ver todas las categorías</a>
-            <a class="dropdown-item" href="/categorias/salud/vacunas/sobre-vacunas.html">Vacunas Chile</a>
+            <a class="dropdown-item" href="/categorias/salud/index.html">Ver todas las Categorías</a>
+            <a class="dropdown-item" href="/categorias/salud/vacunas/index.html">Vacunas Chile</a>
            
         </div>
     </li>
@@ -32,7 +32,7 @@ let htmlNavbar = `
     <li class=" nav-item dropdown">
         <a class="link links-nav dropdown-toggle" href="#" role="button" data-toggle="dropdown"> Programación</a>
         <div class="links-nav dropdown-menu">
-            <a class="dropdown-item" href="/">Ver todas las categorías</a>
+            <a class="dropdown-item" href="/">Ver todas las Categorías</a>
            
         </div>
     </li>
@@ -41,7 +41,7 @@ let htmlNavbar = `
     <li class=" nav-item dropdown">
         <a class="link links-nav dropdown-toggle" href="#" role="button" data-toggle="dropdown"> Animales</a>
         <div class="links-nav dropdown-menu">
-            <a class="dropdown-item" href="/">Ver todas las categorías</a>
+            <a class="dropdown-item" href="/">Ver todas las Categorías</a>
            
         </div>
     </li>
@@ -50,7 +50,7 @@ let htmlNavbar = `
 
         <a class="link links-nav dropdown-toggle" href="#" role="button" data-toggle="dropdown"> Entretenimiento</a>
         <div class="links-nav dropdown-menu">
-            <a class="dropdown-item" href="/">Ver todas las categorías</a>
+            <a class="dropdown-item" href="/">Ver todas las Categorías</a>
         </div>
     </li>
 
@@ -125,15 +125,14 @@ let categories = `
     <h2>Explorar Categorías</h2>
 
     <ul class="list-group">
-        <li class="list-group-item item-category">Tecnología</li>
-        <li class="list-group-item  item-category">Deportes</li>
-        <li class="list-group-item  item-category">Recetas</li>
-        <li class="list-group-item  item-category">Salud</li>
-        <li class="list-group-item  item-category">Programación</li>
-        <li class="list-group-item  item-category">Animales</li>
-        <li class="list-group-item  item-category">Entretenimiento</li>
-        <li class="list-group-item  item-category">Juegos</li>
-        <li class="list-group-item  item-category">Vestibulum at eros</li>
+        <li class="list-group-item item-category"><a href="/categorias/tecnologia/index.html">Tecnología</a> </li>
+        <li class="list-group-item  item-category"><a href="/categorias/deportes/index.html">Deportes</a></li>
+        <li class="list-group-item  item-category"><a href="/categorias/recetas/index.html">Recetas</a></li>
+        <li class="list-group-item  item-category"><a href="/categorias/salud/index.html">Salud</a></li>
+        <li class="list-group-item  item-category"><a href="/categorias/programacion/index.html">Programación</a></li>
+        <li class="list-group-item  item-category"><a href="/categorias/animales/index.html">Animales</a></li>
+        <li class="list-group-item  item-category"><a href="/categorias/entretenimiento/index.html">Entretenimiento</a></li>
+        <li class="list-group-item  item-category"><a href="/categorias/juegos/index.html">Juegos</a></li>
     </ul>
 
 

@@ -6,14 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../../styles/index.css">
 
-
     <script src="https://kit.fontawesome.com/56e753ffcd.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <title>Vacunas - Chile</title>
+    <title>Categorías - Blog</title>
 </head>
 
 
@@ -23,22 +22,19 @@
     <header class="header">
         <nav id="extends_navbar" class="navbar container-main"> </nav>
     </header>
-<!-- 
-    <section class="jumbotron jumbotron-fluid">
-        <div class="container-welcome">
-          <h1 class="">¡Bienvenidos al blog de aaaaaa!</h1>
-          <p class="welcome-message"> Este espacio para compartir información y conocimientos en diversas categorías, 
-            encontrarás artículos informativos y entretenidos, hasta consejos y tutoriales.
-            ¡Gracias por visitar este blog y espero verte pronto por aquí!
-          </p>
-        </div>
-    </section> -->
 
+
+
+
+    
 
     <main class="main">
 
-        <section class="tittle-news">
-            <h2>Sobre vacunas en Chile</h2>
+        <!--Pagina Actual-->
+        <ul id="breadcrumb" class="breadcrumb-trail"> </ul>
+
+        <section class="title-news container-main ">
+            <h1>Selecciona una categoría:</h1>
         </section>
 
         <section class="information container-main">
@@ -46,13 +42,14 @@
             <section class="news container-main">
 
                 <div class="new">
-                    <a href="https://www.youtube.com/" >
+                    <a href="/categorias/tecnologia/index.html" >
                         <div class="new-image">
-                            <img src="../vacunas/img/vacunas-ministeriales/vacunas-ministeriales-portada.png" alt="Portada vacunas ministeriales">
+                            <img src="../img/tecnologia.jpg" alt="Portada smarthome">
                         </div>
-                        <div class="new-text">
-                            <h2>Vacunas ministeriales</h2>
-                            <p>Frente a enfermedades prevenibles, se busca la protección de la población residente en Chile </p>
+                        <div class="new-text ">
+                            <h2 class="text-center-category text-uppercase">Artículos de tecnología</h2>
+                            <p>Aquí encontrarás información sobre los últimos avances y tendencias en el mundo de la tecnología,
+                                 desde dispositivos móviles hasta aplicaciones, gadgets y herramientas digitales.</p>
                         </div>
                         <div class="new-update">
                             <p>Última actualización hace 3 minutos</p>
@@ -61,14 +58,14 @@
                 </div>
 
                 <div class="new">
-                    <a href="https://www.youtube.com/" >
+                    <a href="/categorias/deportes/index.html" >
                         <div class="new-image">
-                            <img src="" alt="">
+                            <img src="../img/deportes.jpg" alt="">
                         </div>
                         <div class="new-text">
-                            <h2>Vacunas campañas Minsal</h2>
-                            <p>Esta es una tarjeta más amplia con texto de apoyo a continuación como una introducción natural a
-                            contenido adicional. Este contenido es un poco más largo.</p>
+                            <h2 class="text-center-category text-uppercase">Artículos de deportes</h2>
+                            <p>Aquí encontrarás todo lo que necesitas saber sobre tus deportes favoritos, 
+                                desde fútbol hasta baloncesto, tenis, golf y mucho más.</p>
         
                         </div>
                         <div class="new-update">
@@ -78,13 +75,13 @@
                 </div>
 
                 <div class="new">
-                    <a href="https://www.youtube.com/" >
+                    <a href="/categorias/salud/index.html" >
                         <div class="new-image">
-                            <img src="" alt="">
+                            <img src="../img/salud.webp" alt="">
                         </div>
                         <div class="new-text">
-                            <h2>Vacunas complementarias</h2>
-                            <p></p>
+                            <h2 class="text-center-category text-uppercase">Artículos de salud</h2>
+                            <p>Aquí encontrarás información útil y práctica sobre cómo mantener una vida saludable y equilibrada.</p>
         
                         </div>
                         <div class="new-update">
@@ -94,14 +91,14 @@
                 </div>
 
                 <div class="new">
-                    <a href="https://www.youtube.com/" >
+                    <a href="/categorias/programacion/index.html" >
                         <div class="new-image">
-                            <img src="" alt="">
+                            <img src="../img/programacion.jpg" alt="">
                         </div>
                         <div class="new-text">
-                            <h2>Vacunas viajeros</h2>
-                            <p>Esta es una tarjeta más amplia con texto de apoyo a continuación como una introducción natural a
-                            contenido adicional. Este contenido es un poco más largo.</p>
+                            <h2 class="text-center-category text-uppercase">Artículos de programación</h2>
+                            <p>Aquí encontrarás todo lo que necesitas saber sobre el mundo de la programación, 
+                                desde los conceptos básicos hasta las últimas tendencias y avances tecnológicos.</p>
         
                         </div>
                         <div class="new-update">
@@ -111,14 +108,14 @@
                 </div>
 
                 <div class="new">
-                    <a href="https://www.youtube.com/" >
+                    <a href="/categorias/animales/index.html" >
                         <div class="new-image">
-                            <img src="" alt="">
+                            <img src="../img/animales.jpg" alt="">
                         </div>
                         <div class="new-text">
-                            <h2>Información general sobre las vacunas</h2>
-                            <p>Esta es una tarjeta más amplia con texto de apoyo a continuación como una introducción natural a
-                            contenido adicional. Este contenido es un poco más largo.</p>
+                            <h2 class="text-center-category text-uppercase">Artículos de animales</h2>
+                            <p>Aquí encontrarás información fascinante y útil sobre los animales, 
+                                desde mascotas hasta animales salvajes y exóticos..</p>
         
                         </div>
                         <div class="new-update">
@@ -128,14 +125,14 @@
                 </div>
 
                 <div class="new">
-                    <a href="https://www.youtube.com/" >
+                    <a href="/categorias/entretenimiento/index.html" >
                         <div class="new-image">
-                            <img src="" alt="">
+                            <img src="../img/entretenimiento.jpg" alt="">
                         </div>
                         <div class="new-text">
-                            <h2>Historia de las vacunas</h2>
-                            <p>Esta es una tarjeta más amplia con texto de apoyo a continuación como una introducción natural a
-                            contenido adicional. Este contenido es un poco más largo.</p>
+                            <h2 class="text-center-category text-uppercase">Artículos de Entretenimiento</h2>
+                            <p>Aquí encontrarás todo lo que necesitas saber sobre el mundo del entretenimiento, desde las últimas películas y 
+                                programas de televisión hasta la música y los videojuegos más populares.</p>
         
                         </div>
                         <div class="new-update">
@@ -146,19 +143,12 @@
 
             </section>
 
-            <section class="categories" id="extends_categories"></section>
+            <section class="categories-container" id="extends_categories">
+                
+            </section>
                
-    
-
-    
-
-
 
         </section>
-
-
-
-
 
 
     </main>
