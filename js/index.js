@@ -151,7 +151,7 @@ const pathArticle = [
 
     {
         // FROM VACUNAS-INF-GENERAL
-        path: '/categorias/salud/vacunas/inf-general/articulos',
+        path: '/categorias/salud/vacunas/inf-general/articles',
         pathLink: `<li> <a href="/"> Inicio</a> <i class="fa-sharp fa-solid fa-angle-right"></i>
         <li> <a href="${ paths.category }"> Categorías</a> <i class="fa-sharp fa-solid fa-angle-right"></i>
         <li> <a href="${ paths.health }"> Salud</a> <i class="fa-sharp fa-solid fa-angle-right"></i>

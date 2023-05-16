@@ -1,7 +1,7 @@
 
 let htmlNavbar = `  
 
-    <a class="link" href="/"> <img src="/img/logo.png" alt="">LOGO</a>
+    <a class="logo" href="/"> </a>
 
     <li class=" nav-item dropdown">
         <a class="link links-nav dropdown-toggle" href="#" role="button" data-toggle="dropdown">Tecnología</a>

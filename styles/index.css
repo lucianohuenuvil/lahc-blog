@@ -40,7 +40,7 @@ main{
     top: 0;
     width: 100%;
     z-index: 1;
-    background-color: rgb(28, 28, 28); 
+    background-color: rgb(50, 95, 121); 
     box-shadow: 1px 1px 6px #888888; 
 
 }
@@ -69,6 +69,17 @@ main{
 .link {
     text-decoration: none;
     /* color: rgb(0 124 183); */
+    border: none;
+    
+}
+
+
+.logo{
+
+    width: 180px;
+    height: 40px;
+    background-image: url('../img/blogly-log.svg');
+    background-size: cover;
     
 }
 
@@ -78,11 +89,12 @@ main{
 
 .link img{
 
-    height: 50px;
+    height: 40px;
+ 
 }
 
 .link:hover{
-    color: rgb(131, 118, 118) !important;
+    color: rgb(190, 179, 35) !important;
 }
 
 
@@ -100,7 +112,7 @@ main{
 /*navbar responsive*/
 
 .navbar-responsive{
-    background-color: rgb(107, 107, 107);
+    background-color: rgb(28, 28, 28);
     flex-direction: column;
     position: fixed;
     transition: .5s;
@@ -117,9 +129,7 @@ main{
 .responsive-link{
     padding: 10px;
     border-bottom: solid white 1px;
-    /* color: rgb(239, 239, 239); */
-    /* background-color: #4d7ecb; */
-    background-color: #69abab;
+    background-color: #52af7e;
     color: white !important;
 }
 
@@ -142,8 +152,8 @@ main{
 
     width: 100%;
     padding: 15px;
-    background-color: #efefef;
-
+    /* background-color: #efefef; */
+    background-color: #fff3fd;
 }
 
 
@@ -158,10 +168,12 @@ main{
     border: #d5d5d5 solid 1px;
     border-radius: 10px;
     padding: 30px;
+    background-color: #609090;
 }
 
 .categories h2{
     font-size: 25px;
+    color: white;
 }
 
 
@@ -170,7 +182,7 @@ main{
 }
 
 .item-category:hover{
-    background-color: #6fb2b2;
+    background-color: #559684;
 }
 
 .item-category a{
@@ -181,6 +193,9 @@ main{
     color: black;
 }
 
+.item-category a:hover{
+    color: black
+}
 
 
 .news{
@@ -321,6 +336,7 @@ main{
     height: auto;
     background-color: rgb(255, 255, 255);
     margin: 20px;
+    border-radius: 10px;
     
 }
 
